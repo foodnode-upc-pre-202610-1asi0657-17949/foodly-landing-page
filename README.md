@@ -1,2 +1,2 @@
-# PuntoSabor-LandingPage
-Landing page de PuntoSabor
+# Foodly-LandingPage
+Landing page de Foodly
