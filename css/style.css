@@ -1391,9 +1391,7 @@ body {
   .logo-img{ height: 28px; }
 }
 
-/* ==== Cómo Funciona: mismo layout en los 3 pasos (ícono izq, texto der) ==== */
 
-/* Contenedor de pasos a pantalla completa y centrado vertical */
 .how-it-works.vh-section{
   min-height: calc(100vh - var(--header-h));
   display: flex;
@@ -1404,7 +1402,6 @@ body {
   padding-bottom: 2rem;
 }
 
-/* La columna de pasos ocupa el ancho útil */
 .how-it-works .steps-container{
   width: 100%;
   max-width: 1100px;
@@ -1442,4 +1439,31 @@ body {
   }
   .how-it-works .step-number{ margin: 0 auto 0.75rem; }
   .how-it-works .step-content{ max-width: 100%; }
+}
+
+
+.benefit-icon .svg-icon {
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+
+.benefit-card:hover .benefit-icon .svg-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.benefit-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-icon .svg-icon {
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
+  display: block;
 }
